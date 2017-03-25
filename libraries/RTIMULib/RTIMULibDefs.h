@@ -29,7 +29,8 @@
 
 //  IMU enable defs - only one should be enabled, the rest commented out
 
-#define MPU9150_68                      // MPU9150 at address 0x68
+
+//#define MPU9150_68                      // MPU9150 at address 0x68
 //#define MPU9150_69                      // MPU9150 at address 0x69
 //#define MPU9250_68                      // MPU9250 at address 0x68
 //#define MPU9250_69                      // MPU9250 at address 0x69
@@ -43,6 +44,7 @@
 //#define GD20M303DLHC_6b                 // GD20 + M303DLHC at address 0x6b
 //#define BNO055_28                       // BNO055 at address 0x28
 //#define BNO055_29                       // BNO055 at address 0x29
+#define MPU9255_73                        // MPU9255
 
 //  IMU type codes
 
@@ -53,10 +55,11 @@
 #define RTIMU_TYPE_MPU9250                  5                   // InvenSense MPU9250
 #define RTIMU_TYPE_GD20HM303DLHC            6                   // STM L3GD20H/LSM303DHLC (new Adafruit IMU)
 #define RTIMU_TYPE_BNO055                   7                   // BNO055
+#define RTIMU_TYPE_MPU9255                  8                   // InvenSense MPU9255
 
 //  Pressure enable defs - only one should be enabled, the rest commented out
 
-//#define BMP180                              // BMP180
+#define BMP180                              // BMP180
 //#define LPS25H_5c                           // LPS25H at standard address
 //#define LPS25H_5d                           // LPS25H at option address
 //#define MS5611_76                           // MS5611 at standard address
